@@ -1,5 +1,4 @@
 pragma solidity ^0.8.0;
-import "hardhat/console.sol";
 
 // This contract is just for testing functionality. It will not be used in the final version of the project. 
 // CredAccessControl contracts are meant to allow communities to set their own parameters for 

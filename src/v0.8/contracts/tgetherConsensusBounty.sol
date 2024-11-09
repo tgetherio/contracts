@@ -1,9 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
-import "hardhat/console.sol";
 import "@chainlink/contracts/src/v0.8/automation/interfaces/ILogAutomation.sol";
 import "@openzeppelin/contracts/security/ReentrancyGuard.sol";
-import "hardhat/console.sol";
 interface tgetherPostConsensusInterface {
     function getReviewsForSubmission(uint256 _submissionId) external view returns (uint256[] memory);
     function getPostConsesous(uint256 _submissionId) external view returns (Consensus);
